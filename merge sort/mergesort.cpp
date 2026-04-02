@@ -33,3 +33,14 @@ void input()
     }
 }
 
+// create funcion mergesort
+void mergesort(int low, int high)
+{
+    if (low >= high) // step 1
+    {
+        return; // step 1.a
+    }
+
+    int mid = (low + high) / 2; // step 2
+
+    
